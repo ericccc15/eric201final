@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    background-color: rgb(171, 169, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headliner {
+    font-size: xx-large;
+    color: rgb(241, 204, 134);
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.table {
+    width: 1200px;
+    height: 1200px;
+}
+
+.footer {
+    grid-row: 4;
+    grid-column: 1/ span 3;
+    color: grey;
+    margin: 0px;
+}
+
+.grid {
+    background-color: rgb(169, 167, 163);
+    border: solid 3px rgb(136, 131, 131);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.centerpic {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%; */
+}
+
+.Cali {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.s{
+    font-family: cursive;
+}
+.s1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link {
+    color: rgb(245, 183, 67);
+    text-decoration-line: underline;
+}
+
+.yellow {
+    color: rgb(245, 183, 67);
+}
+
+.normal {
+    font-style: normal;
+}
+
+.time {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.small  {
+    font-size: medium;
+}
+
+.italic {
+    font-style:  italic;
+}
+
+.underscore {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.containerlist {
+    text-align: center;
+}
+ 
+.orderliststyle {
+    padding: 0;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 30px;
+
+
+}
+ 
+.achievementList {
+    list-style-type: disc; /* Use disc bullet points */
+    margin-top: 0; /* Remove default margin */
+    padding-left: 20px; /* Add indentation */
+    font-size: 22px;
+}
